@@ -4,6 +4,13 @@ class Clicker extends React.Component{
   state={
     number:1,
   };
+
+  getRandomNum = ()=>{
+    const number = Math.floor(Math.random() * 10);
+    console.log(number);
+    this.setState({number});
+  }
+
   render(){
     const {number} = this.state;
     const message = "Wow, that's a lucky one!";
