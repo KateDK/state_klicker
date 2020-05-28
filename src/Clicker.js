@@ -6,6 +6,7 @@ class Clicker extends React.Component{
   };
   render(){
     const {number} = this.state;
+    const message = "Wow, that's a lucky one!";
     return (
       <div className="Clicker">
         <h1>Number is: {number}</h1>
