@@ -16,7 +16,9 @@ class Clicker extends React.Component{
     return (
       <div className="Clicker">
         <h1>Number is: {number}</h1>
-    {number === 7 ? <h2>{message}</h2> : <button onClick={this.getRandomNum}>Random Number</button>}
+    {number === 7
+    ? <h2>{message}</h2>
+    : <button onClick={this.getRandomNum}>Random Number</button>}
       </div>
     )
   }
