@@ -6,8 +6,7 @@ class Clicker extends React.Component{
   };
 
   getRandomNum = ()=>{
-    const number = Math.floor(Math.random() * 10);
-    console.log(number);
+    const number = Math.ceil(Math.random() * 10);
     this.setState({number});
   }
 
